@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('image.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    color: white; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 40px;
+    width: 300px;
+    margin: 60px auto; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+input, select, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
